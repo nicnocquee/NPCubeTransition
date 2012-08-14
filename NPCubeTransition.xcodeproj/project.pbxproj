@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C00C5B15DAA90A00482EFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C00C5A15DAA90A00482EFD /* UIKit.framework */; };
+		03C00C5D15DAA90A00482EFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C00C5C15DAA90A00482EFD /* Foundation.framework */; };
+		03C00C5F15DAA90A00482EFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C00C5E15DAA90A00482EFD /* CoreGraphics.framework */; };
+		03C00C6515DAA90A00482EFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03C00C6315DAA90A00482EFD /* InfoPlist.strings */; };
+		03C00C6715DAA90A00482EFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C00C6615DAA90A00482EFD /* main.m */; };
+		03C00C6B15DAA90B00482EFD /* NPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C00C6A15DAA90B00482EFD /* NPAppDelegate.m */; };
+		03C00C6E15DAA90B00482EFD /* NPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C00C6D15DAA90B00482EFD /* NPViewController.m */; };
+		03C00C7115DAA90B00482EFD /* NPViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C00C6F15DAA90B00482EFD /* NPViewController_iPhone.xib */; };
+		03C00C7415DAA90B00482EFD /* NPViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C00C7215DAA90B00482EFD /* NPViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03C00C5615DAA90A00482EFD /* NPCubeTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPCubeTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C00C5A15DAA90A00482EFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03C00C5C15DAA90A00482EFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03C00C5E15DAA90A00482EFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03C00C6215DAA90A00482EFD /* NPCubeTransition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NPCubeTransition-Info.plist"; sourceTree = "<group>"; };
+		03C00C6415DAA90A00482EFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03C00C6615DAA90A00482EFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03C00C6815DAA90B00482EFD /* NPCubeTransition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NPCubeTransition-Prefix.pch"; sourceTree = "<group>"; };
+		03C00C6915DAA90B00482EFD /* NPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPAppDelegate.h; sourceTree = "<group>"; };
+		03C00C6A15DAA90B00482EFD /* NPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPAppDelegate.m; sourceTree = "<group>"; };
+		03C00C6C15DAA90B00482EFD /* NPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPViewController.h; sourceTree = "<group>"; };
+		03C00C6D15DAA90B00482EFD /* NPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPViewController.m; sourceTree = "<group>"; };
+		03C00C7015DAA90B00482EFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NPViewController_iPhone.xib; sourceTree = "<group>"; };
+		03C00C7315DAA90B00482EFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NPViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C00C5315DAA90A00482EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C00C5B15DAA90A00482EFD /* UIKit.framework in Frameworks */,
+				03C00C5D15DAA90A00482EFD /* Foundation.framework in Frameworks */,
+				03C00C5F15DAA90A00482EFD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C00C4B15DAA90A00482EFD = {
+			isa = PBXGroup;
+			children = (
+				03C00C6015DAA90A00482EFD /* NPCubeTransition */,
+				03C00C5915DAA90A00482EFD /* Frameworks */,
+				03C00C5715DAA90A00482EFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03C00C5715DAA90A00482EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C00C5615DAA90A00482EFD /* NPCubeTransition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C00C5915DAA90A00482EFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03C00C5A15DAA90A00482EFD /* UIKit.framework */,
+				03C00C5C15DAA90A00482EFD /* Foundation.framework */,
+				03C00C5E15DAA90A00482EFD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03C00C6015DAA90A00482EFD /* NPCubeTransition */ = {
+			isa = PBXGroup;
+			children = (
+				03C00C6915DAA90B00482EFD /* NPAppDelegate.h */,
+				03C00C6A15DAA90B00482EFD /* NPAppDelegate.m */,
+				03C00C6C15DAA90B00482EFD /* NPViewController.h */,
+				03C00C6D15DAA90B00482EFD /* NPViewController.m */,
+				03C00C6F15DAA90B00482EFD /* NPViewController_iPhone.xib */,
+				03C00C7215DAA90B00482EFD /* NPViewController_iPad.xib */,
+				03C00C6115DAA90A00482EFD /* Supporting Files */,
+			);
+			path = NPCubeTransition;
+			sourceTree = "<group>";
+		};
+		03C00C6115DAA90A00482EFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C00C6215DAA90A00482EFD /* NPCubeTransition-Info.plist */,
+				03C00C6315DAA90A00482EFD /* InfoPlist.strings */,
+				03C00C6615DAA90A00482EFD /* main.m */,
+				03C00C6815DAA90B00482EFD /* NPCubeTransition-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C00C5515DAA90A00482EFD /* NPCubeTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C00C7715DAA90B00482EFD /* Build configuration list for PBXNativeTarget "NPCubeTransition" */;
+			buildPhases = (
+				03C00C5215DAA90A00482EFD /* Sources */,
+				03C00C5315DAA90A00482EFD /* Frameworks */,
+				03C00C5415DAA90A00482EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NPCubeTransition;
+			productName = NPCubeTransition;
+			productReference = 03C00C5615DAA90A00482EFD /* NPCubeTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C00C4D15DAA90A00482EFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Nico Prananta";
+			};
+			buildConfigurationList = 03C00C5015DAA90A00482EFD /* Build configuration list for PBXProject "NPCubeTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03C00C4B15DAA90A00482EFD;
+			productRefGroup = 03C00C5715DAA90A00482EFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C00C5515DAA90A00482EFD /* NPCubeTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C00C5415DAA90A00482EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C00C6515DAA90A00482EFD /* InfoPlist.strings in Resources */,
+				03C00C7115DAA90B00482EFD /* NPViewController_iPhone.xib in Resources */,
+				03C00C7415DAA90B00482EFD /* NPViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C00C5215DAA90A00482EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C00C6715DAA90A00482EFD /* main.m in Sources */,
+				03C00C6B15DAA90B00482EFD /* NPAppDelegate.m in Sources */,
+				03C00C6E15DAA90B00482EFD /* NPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03C00C6315DAA90A00482EFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C00C6415DAA90A00482EFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03C00C6F15DAA90B00482EFD /* NPViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C00C7015DAA90B00482EFD /* en */,
+			);
+			name = NPViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		03C00C7215DAA90B00482EFD /* NPViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C00C7315DAA90B00482EFD /* en */,
+			);
+			name = NPViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03C00C7515DAA90B00482EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03C00C7615DAA90B00482EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03C00C7815DAA90B00482EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NPCubeTransition/NPCubeTransition-Prefix.pch";
+				INFOPLIST_FILE = "NPCubeTransition/NPCubeTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03C00C7915DAA90B00482EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NPCubeTransition/NPCubeTransition-Prefix.pch";
+				INFOPLIST_FILE = "NPCubeTransition/NPCubeTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C00C5015DAA90A00482EFD /* Build configuration list for PBXProject "NPCubeTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C00C7515DAA90B00482EFD /* Debug */,
+				03C00C7615DAA90B00482EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C00C7715DAA90B00482EFD /* Build configuration list for PBXNativeTarget "NPCubeTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C00C7815DAA90B00482EFD /* Debug */,
+				03C00C7915DAA90B00482EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C00C4D15DAA90A00482EFD /* Project object */;
+}
