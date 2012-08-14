@@ -7,8 +7,11 @@
 //
 
 #import "NPViewController.h"
+#import "UIView+NPCubeTransition.h"
 
-@interface NPViewController ()
+@interface NPViewController () {
+    BOOL alternate;
+}
 
 @end
 
@@ -26,4 +29,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonPressed:(id)sender {
+    UIButton *button = (UIButton *)sender;
+    CubeTransitionDirection direction = CubeTransitionDirectionDown;
+    if (button.tag == 12) {
+        direction = CubeTransitionDirectionUp;
+    }
+    
+    [UIView cubeTransitionFromView:(alternate)?self.redLabel:self.blueLabel toView:(alternate)?self.blueLabel:self.redLabel direction:direction];
+    alternate = !alternate;
+}
 @end

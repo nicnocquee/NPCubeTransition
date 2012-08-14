@@ -16,6 +16,9 @@
 		03C00C6E15DAA90B00482EFD /* NPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C00C6D15DAA90B00482EFD /* NPViewController.m */; };
 		03C00C7115DAA90B00482EFD /* NPViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C00C6F15DAA90B00482EFD /* NPViewController_iPhone.xib */; };
 		03C00C7415DAA90B00482EFD /* NPViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C00C7215DAA90B00482EFD /* NPViewController_iPad.xib */; };
+		03C00C7D15DAA94100482EFD /* UIView+NPCubeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C00C7C15DAA94100482EFD /* UIView+NPCubeTransition.m */; };
+		03C00C7F15DAA9A500482EFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C00C7E15DAA9A500482EFD /* QuartzCore.framework */; };
+		03C00C8215DAA9F100482EFD /* CALayer+NPAnchorPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C00C8115DAA9F100482EFD /* CALayer+NPAnchorPosition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,11 @@
 		03C00C6D15DAA90B00482EFD /* NPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPViewController.m; sourceTree = "<group>"; };
 		03C00C7015DAA90B00482EFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NPViewController_iPhone.xib; sourceTree = "<group>"; };
 		03C00C7315DAA90B00482EFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NPViewController_iPad.xib; sourceTree = "<group>"; };
+		03C00C7B15DAA94100482EFD /* UIView+NPCubeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+NPCubeTransition.h"; path = "NPCubeTransition/UIView+NPCubeTransition.h"; sourceTree = "<group>"; };
+		03C00C7C15DAA94100482EFD /* UIView+NPCubeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+NPCubeTransition.m"; path = "NPCubeTransition/UIView+NPCubeTransition.m"; sourceTree = "<group>"; };
+		03C00C7E15DAA9A500482EFD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		03C00C8015DAA9F100482EFD /* CALayer+NPAnchorPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CALayer+NPAnchorPosition.h"; path = "NPCubeTransition/CALayer+NPAnchorPosition.h"; sourceTree = "<group>"; };
+		03C00C8115DAA9F100482EFD /* CALayer+NPAnchorPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CALayer+NPAnchorPosition.m"; path = "NPCubeTransition/CALayer+NPAnchorPosition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C00C7F15DAA9A500482EFD /* QuartzCore.framework in Frameworks */,
 				03C00C5B15DAA90A00482EFD /* UIKit.framework in Frameworks */,
 				03C00C5D15DAA90A00482EFD /* Foundation.framework in Frameworks */,
 				03C00C5F15DAA90A00482EFD /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +61,7 @@
 		03C00C4B15DAA90A00482EFD = {
 			isa = PBXGroup;
 			children = (
+				03C00C7E15DAA9A500482EFD /* QuartzCore.framework */,
 				03C00C6015DAA90A00482EFD /* NPCubeTransition */,
 				03C00C5915DAA90A00482EFD /* Frameworks */,
 				03C00C5715DAA90A00482EFD /* Products */,
@@ -79,6 +89,7 @@
 		03C00C6015DAA90A00482EFD /* NPCubeTransition */ = {
 			isa = PBXGroup;
 			children = (
+				03C00C7A15DAA91A00482EFD /* NPCubeTransition */,
 				03C00C6915DAA90B00482EFD /* NPAppDelegate.h */,
 				03C00C6A15DAA90B00482EFD /* NPAppDelegate.m */,
 				03C00C6C15DAA90B00482EFD /* NPViewController.h */,
@@ -99,6 +110,17 @@
 				03C00C6815DAA90B00482EFD /* NPCubeTransition-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03C00C7A15DAA91A00482EFD /* NPCubeTransition */ = {
+			isa = PBXGroup;
+			children = (
+				03C00C7B15DAA94100482EFD /* UIView+NPCubeTransition.h */,
+				03C00C7C15DAA94100482EFD /* UIView+NPCubeTransition.m */,
+				03C00C8015DAA9F100482EFD /* CALayer+NPAnchorPosition.h */,
+				03C00C8115DAA9F100482EFD /* CALayer+NPAnchorPosition.m */,
+			);
+			name = NPCubeTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +191,8 @@
 				03C00C6715DAA90A00482EFD /* main.m in Sources */,
 				03C00C6B15DAA90B00482EFD /* NPAppDelegate.m in Sources */,
 				03C00C6E15DAA90B00482EFD /* NPViewController.m in Sources */,
+				03C00C7D15DAA94100482EFD /* UIView+NPCubeTransition.m in Sources */,
+				03C00C8215DAA9F100482EFD /* CALayer+NPAnchorPosition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

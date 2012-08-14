@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface NPViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *redLabel;
+@property (weak, nonatomic) IBOutlet UILabel *blueLabel;
+- (IBAction)buttonPressed:(id)sender;
 
 @end
